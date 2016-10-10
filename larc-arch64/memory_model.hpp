@@ -46,7 +46,7 @@ memory_model :: memory_model (size64_t new_ram_size):
 memory_model :: memory_model (const memory_model& obj):
     special  ( obj.special ),
     common   ( obj.common ),
-    ram_size ( obj.ram_size ),
+    ram_size ( obj.ram_size ),  
     ram      ( new char [ram_size] )
 {
     for (size64_t i = 0; i < ram_size; i++)
