@@ -1,1 +1,1 @@
-larc64
+larc
